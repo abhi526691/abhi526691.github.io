@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>BingeBot</title>
+    <title>Text to SQL</title>
     <meta content="" name="descriptison" />
     <meta content="" name="keywords" />
 
@@ -53,16 +53,16 @@
           <div class="row">
             <div class="col-lg-12 portfolio-info">
               <br />
-              <h2 style="color: #12d640">Movie Recommender</h2>
+              <h2 style="color: #12d640">Text to SQL as a Service</h2>
               <ul>
                 <li>
-                  <strong>Tech Stack</strong>: Python, Django, Pandas, nltk,
-                  asttokens, scikit-learn, matplotlib, seaborn, numpy, openai
+                  <strong>Tech Stack</strong>: Streamlit, Gemini, python,
+                  Sqlite, Pandas
                 </li>
                 <li>
                   <strong>Github URL</strong>:
                   <a
-                    href="https://github.com/abhi526691/Movie-Recommendation-System-using-NLTK-OpenAI/tree/bingebot-with-openai-approach"
+                    href="https://github.com/abhi526691/Text-To-SQL-LLM"
                     target="_blank"
                     >Project Link</a
                   >
@@ -70,19 +70,29 @@
               </ul>
 
               <p>
-                Movie Recommendation Systsem is a web application built with
-                Django that allows users to perform [Movie Search based on their
-                requirement].
+                Text-to-SQL application that leverages Google’s Gemini LLM to
+                transform natural language input into SQL queries. The
+                application reads a database schema, processes user inputs, and
+                generates SQL queries to retrieve data based on those inputs. It
+                is built with Python and Streamlit, making it suitable for both
+                database management and natural language processing tasks.
               </p>
               <ul>
-                <li>Recommends movies based on embedded features</li>
                 <li>
-                  Applies cosine similarity to provide an output based on the
-                  query asked by the user
+                  Dynamic Database Connection: Connects to both SQL script files
+                  and SQLite databases, dynamically retrieving table schemas.
                 </li>
                 <li>
-                  Using Content-Based Filtering to provide a Top 5 movie list to
-                  the users based on their preference
+                  Text-to-SQL Query Generation: Generates SQL queries using
+                  Gemini LLM based on user-inputted natural language queries.
+                </li>
+                <li>
+                  Schema Visualization: Displays database schema in a
+                  user-friendly layout with tables, columns, and data types.
+                </li>
+                <li>
+                  Customizable UI: Streamlit-based interface with dark theme
+                  support for enhanced user experience.
                 </li>
               </ul>
             </div>

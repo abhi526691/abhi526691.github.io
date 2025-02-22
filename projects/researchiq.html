@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>BingeBot</title>
+    <title>Movie Recommender</title>
     <meta content="" name="descriptison" />
     <meta content="" name="keywords" />
 
@@ -53,16 +53,25 @@
           <div class="row">
             <div class="col-lg-12 portfolio-info">
               <br />
-              <h2 style="color: #12d640">Movie Recommender</h2>
+              <h2 style="color: #12d640">ResearchIQ</h2>
               <ul>
                 <li>
-                  <strong>Tech Stack</strong>: Python, Django, Pandas, nltk,
-                  asttokens, scikit-learn, matplotlib, seaborn, numpy, openai
+                  <strong>Tech Stack</strong>: Django, FastAPI, Streamlit,
+                  Chromadb, Adobe PDF Services, Huggingface Transformers,
+                  Docker, Hashlib
+                </li>
+                <li>
+                  <strong>Website URL</strong>:
+                  <a
+                    href="https://github.com/abhi526691/ResearchIQ"
+                    target="_blank"
+                    >Link</a
+                  >
                 </li>
                 <li>
                   <strong>Github URL</strong>:
                   <a
-                    href="https://github.com/abhi526691/Movie-Recommendation-System-using-NLTK-OpenAI/tree/bingebot-with-openai-approach"
+                    href="https://github.com/abhi526691/ResearchIQ"
                     target="_blank"
                     >Project Link</a
                   >
@@ -70,19 +79,24 @@
               </ul>
 
               <p>
-                Movie Recommendation Systsem is a web application built with
-                Django that allows users to perform [Movie Search based on their
-                requirement].
+                ResearchIQ is a cutting-edge Retrieval-Augmented Generation
+                (RAG) application designed to assist users in extracting
+                meaningful insights from documents through Question Answering
+                (QnA) and Summarization features. It leverages a robust tech
+                stack and state-of-the-art models to ensure accurate and
+                efficient results.
               </p>
               <ul>
-                <li>Recommends movies based on embedded features</li>
                 <li>
-                  Applies cosine similarity to provide an output based on the
-                  query asked by the user
+                  Users can upload documents, and the application processes the
+                  document to extract headings and content using Adobe PDF
+                  Services. Key-value pairs (Heading: Content) are created after
+                  preprocessing.
                 </li>
+                <li>Users can ask questions about the uploaded document</li>
                 <li>
-                  Using Content-Based Filtering to provide a Top 5 movie list to
-                  the users based on their preference
+                  Summarize the document(Title-Wise, Whole Document Wise
+                  Summary)
                 </li>
               </ul>
             </div>
